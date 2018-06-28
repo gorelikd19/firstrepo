@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block head %}
+
+
+  <meta name="viewport" content="initial-scale=1, width=device-width">
+  <title>Cars</title>
+{% endblock %}
+{% block body %}
+<h1>Car Search</h1>
+	    <form action="https://www.google.com/search" method="get">
+	      <input name="q" placeholder="Enter a Car" type="text">
+	      <input type="submit" value="Search">
+	    </form>
+
+{% endblock %}

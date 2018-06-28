@@ -1,0 +1,21 @@
+body
+{
+    text-align: center;
+    line-height: 2.0;
+}
+
+header
+{
+    font-size: 36px;
+    color:red;
+}
+
+main
+{
+    font-size: medium;
+}
+
+footer
+{
+    font-size: medium;
+}
